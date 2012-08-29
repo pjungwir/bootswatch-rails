@@ -30,10 +30,10 @@ label, input, button, select, textarea,
 }
 
 blockquote {
-	border-left: 5px solid $blue;
+	border-left: 5px solid $green;
 
 	&.pull-right {
-		border-right: 5px solid $blue;
+		border-right: 5px solid $green;
 	}
 }
 
@@ -50,7 +50,7 @@ body {
 }
 
 .page-header {
-	border-bottom: 2px solid $blue
+	border-bottom: 2px solid $green
 }
 
 // NAVBAR
@@ -60,7 +60,7 @@ body {
   @include border-radius(0);
   $shadow: none;
   @include box-shadow($shadow);
-  border-bottom: 2px solid $blue
+  border-bottom: 2px solid $green
 }
 
 .navbar .brand {
@@ -75,7 +75,7 @@ body {
 .navbar .nav .active > a,
 .navbar .nav li > a:hover,
 .navbar .brand:hover {
-	border-bottom: 3px solid $blue
+	border-bottom: 3px solid $green
 }
 
 .navbar .search-query,
@@ -99,7 +99,7 @@ body {
 }
 
 .dropdown-menu li > a:hover {
-	background-color: $blue;
+	background-color: $green;
 	border-bottom: 3px solid transparent;
 }
 
@@ -118,7 +118,7 @@ body {
 }
 
 .navbar .nav-collapse.in .nav a:hover {
-	background-color: $blue;
+	background-color: $green;
 }
 
 div.subnav {
@@ -146,7 +146,7 @@ div.subnav .nav .active a {
 .subnav .nav > li.active > a:hover,
 .subnav .nav > li:first-child > a:hover {
 	background: transparent;
-	border-bottom: 2px solid $blue;
+	border-bottom: 2px solid $green;
 	border-left: 1px solid #222;
 	color: $white;
 }
@@ -156,7 +156,7 @@ div.subnav .nav .dropdown.open {
 	.dropdown-toggle {
 		border: 0;
 		border-left: 1px solid #222;
-	    border-bottom: 2px solid $blue;
+	    border-bottom: 2px solid $green;
 		background-color: #060606;
 	}
 
@@ -166,7 +166,7 @@ div.subnav .nav .dropdown.open {
 
 		li > a:hover {
 			border-bottom: 0;
-			background: $blue;
+			background: $green;
 		}
 	}
 }
@@ -181,7 +181,7 @@ div.subnav .nav .dropdown.open {
 	.subnav .nav > li + li > a:hover,
 	.subnav .nav > li:first-child > a:hover {
 			border-bottom: 0;
-			background-color: $blue;
+			background-color: $green;
 	}
 }
 
@@ -198,7 +198,7 @@ div.subnav .nav .dropdown.open {
 .nav-pills li > a:hover,
 .nav-stacked li > a:hover,
 .nav-stacked li.active > a {
-	background-color: $blue;
+	background-color: $green;
 	color: $white;
 }
 
@@ -214,7 +214,7 @@ div.subnav .nav .dropdown.open {
 }
 
 .nav.nav-tabs .active a:hover {
-	background-color: $blue;
+	background-color: $green;
 	color: $white;
 }
 
@@ -241,7 +241,7 @@ div.subnav .nav .dropdown.open {
 	font-size: 14px;
 
 	li > a {
-		color: $blue;
+		color: $green;
 		text-shadow: none;
 	}
 
@@ -261,7 +261,7 @@ div.subnav .nav .dropdown.open {
 	}
 
 	a:hover, .active a {
-		background-color: $blue;
+		background-color: $green;
 		color: $white;
 	}
 }
@@ -283,7 +283,7 @@ div.subnav .nav .dropdown.open {
 }
 
 .btn-primary {
-  @include buttonBackground($blueDark, darken($blueDark, 10%));
+  @include buttonBackground($greenDark, darken($greenDark, 10%));
 }
 
 .btn-warning {
@@ -433,9 +433,9 @@ code, pre, pre.prettyprint {
 
 .label-success:hover { background-color: darken($green, 13%); }
 
-.label-info, .alert-info { background-color: darken($blueDark, 10%); }
+.label-info, .alert-info { background-color: darken($greenDark, 10%); }
 
-.label-info:hover { background-color: darken($blueDark, 20%); }
+.label-info:hover { background-color: darken($greenDark, 20%); }
 
 .alert,
 .alert .alert-heading,

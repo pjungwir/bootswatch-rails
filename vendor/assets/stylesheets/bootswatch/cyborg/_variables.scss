@@ -24,7 +24,8 @@ $white:                 #fff;
 // -------------------------
 $blue:                  #33B5E5;
 $blueDark:              #0099CC;
-$green:                 #669900;
+$green:                 #33cc00;  // #669900;
+$greenDark:             #336600;
 $red:                   #CC0000;
 $yellow:                #ECBB13;
 $orange:                #FF8800;
@@ -40,7 +41,7 @@ $textColor:             $gray;
 
 // Links
 // -------------------------
-$linkColor:             $blue;
+$linkColor:             $green;
 $linkColorHover:        $white;
 
 
@@ -70,8 +71,8 @@ $btnBackground:                     $white;
 $btnBackgroundHighlight:            darken($white, 10%);
 $btnBorder:                         rgba(0, 0, 0, 0);
 
-$btnPrimaryBackground:              $blueDark;
-$btnPrimaryBackgroundHighlight:     darken($blueDark, 10%);
+$btnPrimaryBackground:              $greenDark;
+$btnPrimaryBackgroundHighlight:     darken($greenDark, 10%);
 
 $btnInfoBackground:                 #5bc0de;
 $btnInfoBackgroundHighlight:        #2f96b4;
@@ -172,7 +173,7 @@ $successText:             #468847;
 $successBackground:       $grayLighter;
 $successBorder:           darken(adjust-hue($successBackground, -10), 5%);
 
-$infoText:                $blueDark;
+$infoText:                $greenDark;
 $infoBackground:          $grayLighter;
 $infoBorder:              darken(adjust-hue($infoBackground, -10), 7%);
 
